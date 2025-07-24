@@ -59,13 +59,13 @@ class _FirstPageState extends State<FirstPage> {
                   ),
                 ],
               ),
-              SizedBox(height: 5),
+              SizedBox(height: 15),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   _buildCard(
                     title: 'Adult Population',
-                    color1: Color(0xFFFFD54F),
+                    color1: Color.fromARGB(255, 202, 159, 19),
                     color2: Color(0xFFFF8A65),
                     onTap: () {
                       Navigator.push(
